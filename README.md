@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:134e4a,100:0e7490&height=250&section=header&text=Harman%20Deep&fontSize=60&fontColor=c9d1d9&animation=fadeIn&fontAlignY=38&desc=Backend%20%7C%20Distributed%20Systems%20%7C%20Gen%20AI%20%7C%20Full%20Stack&descAlignY=55&descSize=18)
+![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:134e4a,100:0e7490&height=250&section=header&text=Harman%&fontSize=60&fontColor=c9d1d9&animation=fadeIn&fontAlignY=38&desc=Backend%20%7C%20Distributed%20Systems%20%7C%20Gen%20AI%20%7C%20Full%20Stack&descAlignY=55&descSize=18)
 
 ![Student](https://img.shields.io/badge/Computer%20Science-Student-1e293b?style=for-the-badge&logo=googlescholar&logoColor=2dd4bf)
 ![Location](https://img.shields.io/badge/Location-Edmonton,%20Canada-0f172a?style=for-the-badge&logo=googlemaps&logoColor=38bdf8)
