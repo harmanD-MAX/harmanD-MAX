@@ -52,7 +52,7 @@ I don't have industry experience yet — I'm still a student — but I learn by 
 
 **Cloud, DevOps & Tooling**
 <p>
-<img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,git,githubactions,linux,nginx,postman" />
+<img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,git,linux,nginx,postman" />
 </p>
 
 ---
