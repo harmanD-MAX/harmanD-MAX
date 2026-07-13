@@ -105,9 +105,8 @@ A full-stack travel planning app — give it a budget, destination, and travel s
 | Stack | Next.js 16, React 19, Java Spring Boot 3, Spring AI, PostgreSQL (Supabase), AWS S3/EC2/Amplify |
 | Scale | Handles itinerary generation, real-time budget tracking, and media uploads (tickets, reservations, photos) per trip |
 | Performance | Route optimization using a TSP algorithm over the OSRM API to cut down travel distance each day |
-|
 
----
+</details>
 
 ## Achievements
 
