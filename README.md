@@ -62,56 +62,50 @@ I don't have industry experience yet — I'm still a student — but I learn by 
 <details>
 <summary><b>🔹 ArenaNet — Multiplayer Game Backend</b></summary>
 
-A C++20 backend built to plug straight into an engine like Unity or Godot, handling everything from login and friends to parties, custom lobbies, and full matchmaking. Networking runs on Asio for async TCP, with a lightweight custom protocol (4-byte length header + JSON payload) between client and server.
+A C++20 backend I built so it could plug straight into something like Unity or Godot — handles login, friends, parties, custom lobbies, and full matchmaking. Networking runs on Asio for async TCP, with a small custom protocol (4-byte length header + JSON payload) between client and server.
 
 | Aspect | Details |
 |---|---|
 | Stack | C++20, Asio, PostgreSQL, Redis, C# SDK |
-| Scale | Concurrent lobbies, parties, and matchmaking queues managed in-memory with mutex-protected state |
-| Performance | Background matchmaking thread runs every second, dynamically widening ELO range on long waits |
-| Security | Auth tokens via Redis, host-only lobby controls, 30-second session recovery grace period on disconnect |
-| Impact | Deep dive into real-time multiplayer backend design — matchmaking logic, party grouping, and dynamic match sizing (including wildcard "Any" opponent matching) |
+| Scale | Lobbies, parties, and matchmaking queues all managed in-memory with mutex-protected state |
+| Performance | Background matchmaking thread runs every second, widening the ELO range the longer someone waits |
+| Security | Auth tokens via Redis, host-only lobby controls, 30-second reconnect grace period if you disconnect |
+| Impact | Handles dynamic match sizing — solo players, parties, and "Any" wildcard opponents all get grouped correctly based on total match size |
 | Repository | [View on GitHub](https://github.com/harmanD-MAX/ArenaNet) |
 
-This started as "how hard can matchmaking actually be" and turned into one of the more involved things I've built. PostgreSQL handles the permanent stuff — accounts, friends, match history, leaderboard ranks via window functions — while Redis tracks who's online and holds short-lived tokens. I even shipped a small Python GUI client just so I could test two or three players at once without opening Unity every time, plus a C# SDK so the whole thing drops into a real game project.
+Started out as "how hard can matchmaking really be" and turned into one of the bigger things I've built. PostgreSQL stores the permanent stuff — accounts, friends, match history, and leaderboard ranks (using Postgres window functions). Redis handles the fast, short-lived stuff — who's online right now and temp auth tokens. I also wrote a little Python GUI client so I could test 2-3 "players" at once without booting up Unity every time, plus a C# SDK so it drops straight into an actual Unity project.
 
 </details>
 
 <details>
 <summary><b>🔹 Blueprint — AI Repository Analyzer</b></summary>
 
-A full stack tool that takes any GitHub repo URL and gives back a complete architectural breakdown — dependency graphs, technical debt audits, API endpoint discovery, and AI-generated documentation, all in one pass.
+A full-stack tool where you paste in any GitHub repo URL and get back a full architectural breakdown — dependency graphs, technical debt audits, API endpoint discovery, and AI-generated docs, all in one go.
 
 | Aspect | Details |
 |---|---|
 | Stack | React 19 + TypeScript, .NET 10 (C#), Google Gemini AI, Astra DB (Cassandra), SignalR, Hangfire |
-| Scale | Clones and parses full repositories, storing metadata, file trees, and AI insights in Astra DB |
-| Performance | Heavy analysis offloaded to background jobs via Hangfire so the UI stays responsive; live progress pushed over SignalR WebSockets |
-| Security | GitHub OAuth login with JWT-secured endpoints, session persistence via Redux |
-| Impact | Auto-detects REST endpoints across ASP.NET Core, Spring Boot, Express, Flask, and FastAPI, and generates ATS-optimized resume-ready feature summaries |
+| Scale | Clones and parses the whole repo, storing file trees, metadata, and AI insights in Astra DB |
+| Performance | Heavy analysis runs in the background via Hangfire so the UI doesn't freeze up, with live progress pushed over SignalR |
+| Security | GitHub OAuth login, JWT-secured endpoints, session persists via Redux + localStorage |
+| Impact | Auto-detects REST endpoints across ASP.NET Core, Spring Boot, Express, Flask, and FastAPI, and can spit out ATS-optimized resume bullet points for your own projects |
 | Repository | [View on GitHub](https://github.com/harmanD-MAX/Blueprint) |
 
-The idea came from constantly wanting a faster way to understand a codebase before diving in. It clones the repo with LibGit2Sharp, runs the structure through Gemini, and renders everything as an interactive graph with Cytoscape.js. There's also a Monaco-based code viewer built in, so you can browse the actual files without leaving the app.
+Basically came from me constantly wanting a faster way to understand a codebase before actually diving into it. It clones the repo with LibGit2Sharp, runs the structure through Gemini, and renders everything as an interactive graph with Cytoscape.js. There's also a Monaco-based code viewer built in, so you can read through the actual files without ever leaving the app. Also has a technical debt checker that flags big files (500+ lines) and any leftover TODO/FIXME comments.
 
 </details>
 
 <details>
 <summary><b>🔹 TripWise — AI Travel Planner</b></summary>
 
-A full stack travel planning app that turns a budget, destination, and travel style into a complete day-by-day itinerary, deployed on AWS with the frontend on Amplify and the backend on EC2.
+A full-stack travel planning app — give it a budget, destination, and travel style, and it builds out a full day-by-day itinerary. Deployed on AWS, frontend on Amplify and backend on EC2.
 
 | Aspect | Details |
 |---|---|
 | Stack | Next.js 16, React 19, Java Spring Boot 3, Spring AI, PostgreSQL (Supabase), AWS S3/EC2/Amplify |
 | Scale | Handles itinerary generation, real-time budget tracking, and media uploads (tickets, reservations, photos) per trip |
-| Performance | Route optimization powered by a TSP algorithm over the OSRM API to minimize daily travel distance |
-| Security | JWT auth via Spring Security, Clerk-based authentication on the frontend |
-| Impact | AI budget predictions with local currency detection, an intelligence report that flags itinerary issues, and an in-app AI chat assistant for trip questions |
-| Repository | [View on GitHub](https://github.com/harmanD-MAX/TripWise) |
-
-This one was less about the AI call and more about what happens after — taking Gemini's raw itinerary output and actually structuring it into days, activities, and costs that make sense. The map side uses Leaflet with a day-by-day filter and toggleable Satellite/Street/Topographic/Dark layers, and the "Optimize Route" button reorders each day's stops to cut down on backtracking.
-
-</details>
+| Performance | Route optimization using a TSP algorithm over the OSRM API to cut down travel distance each day |
+|
 
 ---
 
