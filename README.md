@@ -28,7 +28,7 @@ I don't have industry experience yet — I'm still a student — but I learn by 
 - Backend Engineering Internships
 - Distributed Systems / Networking focused roles
 - Open Source Collaboration
-- Gen AI / LLM application projects
+- Gen AI / LLM / Kernel projects
 - Full Stack opportunities where backend is the core
 
 ---
