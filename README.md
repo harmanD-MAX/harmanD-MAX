@@ -84,12 +84,12 @@ A full-stack tool where you paste in any GitHub repo URL and get back a full arc
 
 | Aspect | Details |
 |---|---|
-| Stack | React 19 + TypeScript, .NET 10 (C#), Google Gemini AI, Astra DB (Cassandra), SignalR, Hangfire |
-| Scale | Clones and parses the whole repo, storing file trees, metadata, and AI insights in Astra DB |
-| Performance | Heavy analysis runs in the background via Hangfire so the UI doesn't freeze up, with live progress pushed over SignalR |
-| Security | GitHub OAuth login, JWT-secured endpoints, session persists via Redux + localStorage |
-| Impact | Auto-detects REST endpoints across ASP.NET Core, Spring Boot, Express, Flask, and FastAPI, and can spit out ATS-optimized resume bullet points for your own projects |
-| Repository | [View on GitHub](https://github.com/harmanD-MAX/Blueprint) |
+| Stack | Next.js 16, React 19, Java Spring Boot 3, Spring Security (JWT), Spring AI, PostgreSQL (Supabase), AWS S3, AWS EC2, AWS Amplify, Clerk, Leaflet Maps |
+| Scale | Manages AI-generated itineraries, expense tracking, trip templates, media uploads, and multi-day travel plans with cloud-backed persistence |
+| Performance | Uses a TSP route optimization algorithm with the OSRM API to minimize travel distance, dynamically renders map layers, and streams uploads directly to Amazon S3 |
+| Security | Clerk authentication, JWT-protected Spring Boot APIs, role-based authorization, and secure media storage in Amazon S3 |
+| Impact | Automatically generates personalized travel itineraries, predicts trip budgets, optimizes daily routes, stores travel documents, and provides AI-powered trip insights through an interactive assistant |
+| Repository | [View on GitHub](https://github.com/harmanD-MAX/TripWise) |
 
 Basically came from me constantly wanting a faster way to understand a codebase before actually diving into it. It clones the repo with LibGit2Sharp, runs the structure through Gemini, and renders everything as an interactive graph with Cytoscape.js. There's also a Monaco-based code viewer built in, so you can read through the actual files without ever leaving the app. Also has a technical debt checker that flags big files (500+ lines) and any leftover TODO/FIXME comments.
 
@@ -102,9 +102,14 @@ A full-stack travel planning app — give it a budget, destination, and travel s
 
 | Aspect | Details |
 |---|---|
-| Stack | Next.js 16, React 19, Java Spring Boot 3, Spring AI, PostgreSQL (Supabase), AWS S3/EC2/Amplify |
-| Scale | Handles itinerary generation, real-time budget tracking, and media uploads (tickets, reservations, photos) per trip |
-| Performance | Route optimization using a TSP algorithm over the OSRM API to cut down travel distance each day |
+| Stack | Next.js 16, React 19, Java Spring Boot 3, Spring Security (JWT), Spring AI, PostgreSQL (Supabase), AWS S3, AWS EC2, AWS Amplify, Clerk Authentication |
+| Scale | Supports AI itinerary generation, budget planning, trip templates, media uploads, AI assistant, and multi-day trip management with persistent cloud storage |
+| Performance | Optimizes daily travel routes using a TSP algorithm with the OSRM API, dynamically updates Leaflet maps, and streams file uploads directly to Amazon S3 |
+| AI Features | Google Gemini generates day-by-day itineraries, predicts travel budgets, powers an interactive travel assistant, and produces itinerary intelligence reports |
+| Security | Clerk authentication, JWT-secured Spring Boot APIs, role-based endpoint protection, and secure cloud file storage on Amazon S3 |
+| Infrastructure | Frontend deployed on AWS Amplify, backend hosted on AWS EC2, PostgreSQL on Supabase, object storage on Amazon S3 |
+| Features | Interactive Leaflet maps, live weather, expense tracking, trip templates, route optimization, AI itinerary generation, media uploads, and intelligent trip analysis |
+| Repository | [View on GitHub](https://github.com/harmanD-MAX/TripWise) |
 
 </details>
 
@@ -117,18 +122,6 @@ A full-stack travel planning app — give it a budget, destination, and travel s
 | 🏆 [Google Maps Platform Award 2025](https://devpost.com/software/geoscope) | Recognized under the Google Maps Platform Awards 2025 for **GeoScope** |
 
 </div>
-
----
-
-## Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=harmanD-MAX&theme=react-dark&hide_border=false&border_color=30363d&bg_color=0d1117&color=2dd4bf&line=38bdf8&point=c9d1d9" width="100%" />
-
-</div>
-
----
 
 <div align="center">
 
