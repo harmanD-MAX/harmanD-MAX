@@ -2,19 +2,8 @@
 
 ![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:134e4a,100:0e7490&height=250&section=header&text=Harman%&fontSize=60&fontColor=c9d1d9&animation=fadeIn&fontAlignY=38&desc=Backend%20%7C%20Distributed%20Systems%20%7C%20Gen%20AI%20%7C%20Full%20Stack&descAlignY=55&descSize=18)
 
-![Student](https://img.shields.io/badge/Computer%20Science-Student-1e293b?style=for-the-badge&logo=googlescholar&logoColor=2dd4bf)
-![Location](https://img.shields.io/badge/Location-Edmonton,%20Canada-0f172a?style=for-the-badge&logo=googlemaps&logoColor=38bdf8)
-
-<br/>
-
-<a href="https://www.instagram.com/harmn.in/?hl=en"><img src="https://img.shields.io/badge/Instagram-164e63?style=for-the-badge&logo=instagram&logoColor=38bdf8"/></a>
-<a href="https://linkedin.com/in/harmanp1"><img src="https://img.shields.io/badge/LinkedIn-0e7490?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:harmanofficial@protonmail.com"><img src="https://img.shields.io/badge/Email-155e75?style=for-the-badge&logo=protonmail&logoColor=white"/></a>
-<a href="https://leetcode.com/u/aQDiQitVpg/"><img src="https://img.shields.io/badge/LeetCode-0e7490?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
-
 </div>
 
----
 
 ## About Me
 
@@ -31,7 +20,6 @@ I don't have industry experience yet — I'm still a student — but I learn by 
 - Gen AI / LLM / Kernel projects
 - Full Stack opportunities where backend is the core
 
----
 
 ## Tech Stack
 
@@ -55,7 +43,6 @@ I don't have industry experience yet — I'm still a student — but I learn by 
 <img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,git,linux,nginx,postman" />
 </p>
 
----
 
 ## Featured Projects
 
@@ -112,16 +99,6 @@ A full-stack travel planning app — give it a budget, destination, and travel s
 | Repository | [View on GitHub](https://github.com/harmanD-MAX/TripWise) |
 
 </details>
-
-## Achievements
-
-<div align="center">
-
-| Recognition | Details |
-|---|---|
-| 🏆 [Google Maps Platform Award 2025](https://devpost.com/software/geoscope) | Recognized under the Google Maps Platform Awards 2025 for **GeoScope** |
-
-</div>
 
 <div align="center">
 
