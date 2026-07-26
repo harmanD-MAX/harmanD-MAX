@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:134e4a,100:0e7490&height=250&section=header&text=Harman%&fontSize=60&fontColor=c9d1d9&animation=fadeIn&fontAlignY=38&desc=Backend%20%7C%20Distributed%20Systems%20%7C%20Gen%20AI%20%7C%20Full%20Stack&descAlignY=55&descSize=18)
+![Header Banner](https://capsule-render.vercel.app/api?type=blur&height=280&color=gradient&customColorList=6,12,20,24,30&text=Harman&fontSize=65&fontColor=ffffff&animation=fadeIn&desc=Backend%20Engineer%20%7C%20Distributed%20Systems%20%7C%20GenAI%20%7C%20Full%20Stack&descAlignY=70&descSize=20)
 
 </div>
 
@@ -100,12 +100,6 @@ A full-stack travel planning app — give it a budget, destination, and travel s
 
 </details>
 
-<div align="center">
-
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0e7490,50:134e4a,100:0d1117&height=120&section=footer)
-
-</div>
 
 
 
