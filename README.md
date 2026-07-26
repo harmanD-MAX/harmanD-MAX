@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header Banner](https://capsule-render.vercel.app/api?type=blur&height=280&color=gradient&customColorList=6,12,20,24,30&text=Harman&fontSize=65&fontColor=ffffff&animation=fadeIn&desc=Backend%20Engineer%20%7C%20Distributed%20Systems%20%7C%20GenAI%20%7C%20Full%20Stack&descAlignY=70&descSize=20)
+![Header Banner](https://capsule-render.vercel.app/api?type=blur&height=280&color=gradient&customColorList=6,12,20,24,30&text=Harman&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Backend%20Engineer%20%7C%20Distributed%20Systems%20%7C%20GenAI%20%7C%20Full%20Stack&descAlignY=70&descSize=20)
 
 </div>
 
