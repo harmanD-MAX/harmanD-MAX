@@ -1,10 +1,3 @@
-<div align="center">
-
-![Header Banner](https://capsule-render.vercel.app/api?type=blur&height=280&color=gradient&customColorList=6,12,20,24,30&text=Harman&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Backend%20Engineer%20%7C%20Distributed%20Systems%20%7C%20GenAI%20%7C%20Full%20Stack&descAlignY=70&descSize=20)
-
-</div>
-
-
 ## About Me
 
 I'm a computer science student who ended up falling in love with the backend side of things. Most people start out chasing UI work, and I did too for a while, but somewhere along the way I got a lot more interested in how systems actually talk to each other — request routing, load handling, caching, the networking layer underneath it all. That's where I spend most of my time now.
