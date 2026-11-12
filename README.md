@@ -2,7 +2,7 @@
 
 # Hi, I'm Harman
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Backend+Engineer;Distributed+Systems+%26+Cloud+Infrastructure;Applied+GenAI+%C2%B7+Currently+building+Lyra" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Backend+Engineer;Distributed+Systems+%26+Cloud+Infrastructure;Applied+GenAI+%C2%B7+Currently+building+Lyra;Contributing+to+Meshery+(CNCF)" alt="Typing intro" />
 
 **Final-year Computing Science student @ University of Alberta**
 Google Maps Platform Hackathon 2025 · Jury Award & Fan Favorite
@@ -23,14 +23,23 @@ I still build full stack when a project needs it, but hand me a codebase and I'l
 
 I learn by building, breaking things and rebuilding them properly the second time around.
 
+**Right now:** Contributing to [Meshery](https://github.com/meshery/meshery) (CNCF) · Building Lyra
+
 **Open to:** Summer 2027 SWE internships · Backend, distributed systems & cloud infrastructure roles · Open source · GenAI / LLM projects
 
 ---
 
 ## Experience
 
+### Open Source Contributor · [Meshery](https://github.com/meshery) (CNCF)
+*Currently contributing*
+
+Meshery is a cloud-native manager for designing and operating **Kubernetes** infrastructure and the apps that run on it. After my time on Volcano I moved over to Meshery, and I'm currently getting to know the codebase and picking up issues.
+
+**Stack:** Go · Kubernetes · React · Cloud-Native Infrastructure
+
 ### Open Source Contributor · [Volcano-sh](https://github.com/volcano-sh) (CNCF)
-*Jan 2026 – Present*
+*Jan 2026 – 2026*
 
 Volcano is a cloud-native batch scheduler that runs AI/ML and HPC workloads on **Kubernetes**. I joined to learn how real cloud infrastructure works at scale, and I've had multiple **Go** PRs merged on reliability and testing.
 
@@ -42,6 +51,16 @@ Volcano is a cloud-native batch scheduler that runs AI/ML and HPC workloads on *
 Worked on the backend of **UNTAPPED**, a production platform used by **500+ people across Alberta**. Built APIs for OAuth sign-in, password reset, profiles, invoicing and idempotent Stripe payments, added event hooks and scheduled reminders, and shipped releases through Docker and CI/CD.
 
 **Stack:** REST APIs · OAuth · Stripe · Docker · CI/CD
+
+---
+
+## Languages
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=harmanD-MAX&layout=compact&langs_count=8&hide=html,css,jupyter%20notebook&theme=github_dark&hide_border=true" alt="Most used languages" />
+  <br>
+  <sub>Auto-generated from my public repos</sub>
+</div>
 
 ---
 
