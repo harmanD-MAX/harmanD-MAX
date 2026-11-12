@@ -21,9 +21,6 @@ I'm a computer science student who fell in love with the backend side of things.
 
 I still build full stack when a project needs it, but hand me a codebase and I'll go to the server and the architecture diagram before I touch the CSS. Lately I've been going deep on **generative AI**: not just calling an API, but understanding how models, retrieval and prompt design fit into a real application.
 
-I learn by building, breaking things and rebuilding them properly the second time around.
-
-**Right now:** Contributing to [Meshery](https://github.com/meshery/meshery) (CNCF) · Building Lyra
 
 **Open to:** Summer 2027 SWE internships · Backend, distributed systems & cloud infrastructure roles · Open source · GenAI / LLM projects
 
@@ -51,16 +48,6 @@ Volcano is a cloud-native batch scheduler that runs AI/ML and HPC workloads on *
 Worked on the backend of **UNTAPPED**, a production platform used by **500+ people across Alberta**. Built APIs for OAuth sign-in, password reset, profiles, invoicing and idempotent Stripe payments, added event hooks and scheduled reminders, and shipped releases through Docker and CI/CD.
 
 **Stack:** REST APIs · OAuth · Stripe · Docker · CI/CD
-
----
-
-## Languages
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=harmanD-MAX&layout=compact&langs_count=8&hide=html,css,jupyter%20notebook&theme=github_dark&hide_border=true" alt="Most used languages" />
-  <br>
-  <sub>Auto-generated from my public repos</sub>
-</div>
 
 ---
 
